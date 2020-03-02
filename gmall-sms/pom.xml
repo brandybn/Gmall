@@ -12,13 +12,21 @@
     <artifactId>gmall-sms</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>gmall-sms</name>
-    <description>营销管理系统</description>
+    <description>Demo project for Spring Boot</description>
     
     <properties>
         <java.version>1.8</java.version>
     </properties>
     
     <dependencies>
+    
+    
+        <dependency>
+            <groupId>com.atguigu.gmall</groupId>
+            <artifactId>gmall-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
@@ -34,11 +42,6 @@
                     <artifactId>junit-vintage-engine</artifactId>
                 </exclusion>
             </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>com.atguigu.gmall</groupId>
-            <artifactId>gmall-api</artifactId>
-            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
     

@@ -9,10 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     
-    <!--公司所有的通用工具类、pom公用依赖-->
     <artifactId>gmall-common</artifactId>
     
     <dependencies>
+        <!--导入注解@Slf4j可以自动为当前项目注入一个log类-->
         <!--防止lombok报错-->
         <dependency>
             <groupId>org.projectlombok</groupId>
